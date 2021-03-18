@@ -21,6 +21,9 @@ namespace Github
         {
 
         }
+        
+        int a;
+        int b;
 
         public bool login(string id, string pass)
         {
