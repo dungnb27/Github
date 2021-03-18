@@ -16,5 +16,19 @@ namespace Github
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public bool login(string id, string pass)
+        {
+            if(id =="admin" && pass == "admin")
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
